@@ -1,0 +1,13 @@
+server:
+  listen: ":4000"
+
+routes:
+  - path: /httpbin
+    upstream: https://httpbin.org
+    upstream_auth:
+      mode: ""
+
+  - path: /jsonplaceholder
+    upstream: https://jsonplaceholder.typicode.com
+    upstream_auth:
+      mode: ""

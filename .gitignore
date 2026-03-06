@@ -1,0 +1,33 @@
+# Binary
+switcheroo
+
+# Token state
+*-tokens.json
+tokens.json
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Config (may contain secrets)
+switcheroo.yaml
+.specs/examples/*/switcheroo.yaml
+
+# Grant databases
+*.db
+*.db-shm
+*.db-wal
+
+# Keys
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
