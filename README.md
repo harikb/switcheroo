@@ -70,6 +70,8 @@ go build -o switcheroo .
 ./switcheroo -config switcheroo.yaml
 ```
 
+[![DeClaw Demo](https://img.youtube.com/vi/KTYLRBm7_PY/maxresdefault.jpg)](https://www.youtube.com/watch?v=KTYLRBm7_PY)
+
 ### Docker
 
 ```bash
